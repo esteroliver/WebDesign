@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Seções</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            text-align: center;    
+            background-color: #E6DFD5;
+        }
+
+        header{
+            background-color: #F5A598;
+            padding: 2em;
+        }
+
+        h1{
+            color: white;
+        }
+
+        nav li{
+            display: inline-block;
+            background-color: #F59989;
+            margin-top: 2em;
+            padding: 1em 2em ;    
+        } 
+
+        nav a{
+            color: white;
+            text-decoration: none;
+        }
+
+        main{
+            margin: 0 auto;
+            width: 70em;
+            padding: 2em;
+        }
+
+        section > div{
+            display: flex;
+        }
+
+        div div{
+            background-color: white;
+            padding: 2em;  /*px é absoluto*/
+            margin: 1em;   /*em é relativo ao tamanho da fonte da classe mãe*/
+            width: 20em;   /*rem é relativo ao tamanho da fonte definida no navegador*/
+            height: 20em;
+            box-sizing: border-box; /*considera padding dentro da largura*/
+        }
+
+        footer{
+            padding: 3em;
+            background-color: #A7E2D3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Logo ou título da página
+        </h1>
+        <nav>
+            <ol>
+                <li><a href="#mais_vendidos">Ver Mais Vendidos</a></li>
+                <li><a href="#mais_comprados">Ver Mais Comprados</a></li>
+                <li><a href="#mais_procurados">Ver Mais Procurados</a></li>
+                <li><a href="#sobre">Sobre o Desenvolvedor</a></li>                
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <section id="mais_vendidos">
+            <h2>Produtos mais vendidos</h2>
+            <div>
+                <div>...</div>
+                <div>...</div>
+                <div>...</div>            
+            </div>
+        </section>
+        <section id="mais_comprados">
+            <h2>Produtos mais comprados</h2>
+            <div>
+                <div>...</div>
+                <div>...</div>
+                <div>...</div>
+            </div>
+        </section>
+        <section id="mais_procurados">
+            <h2>Produtos mais procurados</h2>
+            <div>
+                <div>...</div>
+                <div>...</div>
+                <div>...</div>
+            </div>
+        </section>        
+    </main>
+    <footer id="sobre">
+        <address>
+            Av Sen. Salgado Filho s/n. Lagoa Nova.<br>
+            Natal - RN
+        </address>        
+        <p>Desenvolvido por IFRN</p>
+    </footer>
+
+</body>
+</html>

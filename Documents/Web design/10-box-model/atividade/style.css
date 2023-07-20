@@ -1,0 +1,26 @@
+form{
+    width: 15em;
+    margin: auto;
+    padding: 5px;
+    
+    background-color: plum;
+}
+form label{
+    color: rgb(92, 92, 92);
+}
+form input{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    width: 90%;
+
+    color: rgb(92, 92, 92);
+    border: none;
+}
+#botao{
+    margin: auto;
+    width: 40%;
+
+    color: white;
+    background-color: violet;
+}

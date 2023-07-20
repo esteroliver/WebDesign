@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loja de Flores</title>
+
+    <style>
+        body{
+            background-image: url("./imagens/fundo.jpg"); /*Imagem no fundo da página.*/
+        }
+    </style>
+
+</head>
+<body>
+    <img src="./imagens/lirio-do-vale.webp" alt="Lírio do vale" width="200px" height="200px">
+    <p>Lírio do vale.</p>
+
+    <img src="./imagens/Tulipas-branca.jpg" alt="Tulipas brancas" width="400px" height="200px">
+    <p>Tulipas brancas.</p>
+
+    <img src="./imagens/flor-de-cerejeira-1.png" alt="Flor de cerejeira" width="400px" height="200px">
+    <p>Flor de cerejeira.</p>
+    <!-- 
+    src - endereço da imagem.
+    alt - tag para acessibilidade.
+    height e width - altura e largura da imagem.
+    -->
+
+    <figure>
+        <img src="./imagens/dalia-rosa.webp" alt="Dália rosa" width="300px" height="300px">
+        <figcaption>Dália rosa.</figcaption>
+    </figure>
+    <!--Forma mais atualizada de colocar imagens com HTML 5 é o figure.-->
+
+    <picture>
+        <source srcset="imagem-maior" media="(min-width:1200px)">
+        <source srcset="imagem-média" media="(min-width:850px)"> <!--O tamanho da imagem altera de acordo com a tela que está sendo usada.-->
+        <img src="./imagens/lótus.webp" alt="" width="400px" height="200px"> <!--Imagem padrão (menor)-->
+    </picture>
+    <!--Melhor opção para fazer sites responsivos é o picture.-->
+
+    <img src="./imagens/orquidea.webp" alt="Orquídea borrada" width="400px" height="400px" style="filter: blur(15px);">
+    <img src="./imagens/orquidea.webp" alt="Orquídea transparente"  width="400px" height="400px" style="filter: opacity(30%);">
+    <img src="./imagens/orquidea.webp" alt="Orquídea em preto e branco"  width="400px" height="400px" style="filter: grayscale(100%);">
+    <!--Filtros para imagem.-->
+
+    <img src="./imagens/coracao-sangrento.webp" alt="Coração sangrento" style="margin: auto; display: flex; border-radius: 150px; padding: 15px; background-color: pink;" width="400px" height="200px">
+    <!--
+    margin: auto + display: flex = imagem centralizada
+    padding aumentado + cor de fundo = mostra o background da imagem
+    border-radius = arredonda as bordas da imagem
+    -->
+</body>
+</html>

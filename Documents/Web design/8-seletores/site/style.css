@@ -1,0 +1,28 @@
+*{
+    font-family: monospace;
+}
+body{
+    background-color:rgb(255, 211, 218);
+}
+h1,h2{
+    color: palevioletred;
+}
+#paragrafo-1{
+    font-size: 15px;
+}
+strong{
+    font-style: italic;
+}
+#paragrafo-2{
+    font-style: italic;
+    color: teal;
+}
+li:first-child{
+    font-size: 20px;
+}
+li:nth-child(4){
+    font-size: 20px;
+}
+li:last-child{
+    font-size: 20px;
+}

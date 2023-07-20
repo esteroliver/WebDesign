@@ -1,0 +1,51 @@
+body{
+    background-color: #faf8f5;
+    margin: 0%;
+    font-family: Garamond, serif;
+}
+
+/*CABEÇALHO*/
+header h1{
+    text-align: center;
+}
+
+/*CONTEÚDO DA PÁGINA*/
+main figure{
+    text-align: center;
+}
+main figure img{
+    border-top: 2px solid #F5BD26;
+    border-bottom: 2px solid #F5BD26;
+}
+ul{
+    display: flex;
+    width: 60em;
+    margin: 0em auto;
+    flex-wrap: wrap;
+}
+ul li{
+    list-style-type: none;
+}
+section{
+    text-align: center;
+    padding: 2em;
+}
+section h2{
+    padding: 0.5em;
+    font-style: italic;
+    font-size: 2em;
+    border-bottom: 2px solid  #F9F1DC;
+}
+section p{
+    width: 30em;
+    margin: auto;
+}
+
+/*RODAPÉ*/
+footer{
+    background-color: white;
+    padding: 30px;
+}
+footer address{
+    text-align: center;
+}

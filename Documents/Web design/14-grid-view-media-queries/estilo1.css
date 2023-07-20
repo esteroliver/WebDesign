@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+header, nav, main{
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+nav{
+    width: 25%;
+    float: left;
+}
+main{
+    width: 75%;
+    float: left;
+}

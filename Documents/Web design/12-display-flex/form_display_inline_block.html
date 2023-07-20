@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="palavras, texto, frase">
+		<title>Minha página</title>
+		
+		<style>
+			*{
+			margin: 0 auto; /* As divs apresentam uma margem por padrão. Adicione essa linha para retirar essa margem */
+			box-sizing: border-box; /* Acrescente essa linha para não ter que ficar fazendo cálculo da altura e largura final das caixas, quando aplicar padding e/ou border */
+			}
+			#cabecalho, #menu, #conteudo, #rodape{
+			height: 50px;
+			padding-top: 15px;
+			text-align: center;
+			}
+			#cabecalho{
+			background-color:hsl(168, 46%, 65%);
+			width: 80%;
+			}
+			
+			/*INÍCIO - EXEMPLO UTILIZANDO DISPLAY INLINE-BLOCK*/
+			#menu{
+			display: inline-block;
+			background-color:hsl(281, 46%, 75%);
+			width: 30%;
+			margin-left: 10%;
+			}
+			#conteudo{
+			display: inline-block;
+			background-color:hsl(47, 88%, 72%);
+			width: 50%;
+			margin-left: -4px;
+			}
+			#rodape{
+			background-color:hsl(195, 88%, 79%);
+			width: 80%;
+			}			
+			/*EXEMPLO UTILIZANDO DISPLAY INLINE-BLOCK*/
+		</style>
+	</head>
+	<body>
+		<div id="cabecalho">CABEÇALHO</div>
+		<div id="menu">MENU</div>
+		<div id="conteudo">CONTEÚDO</div>
+		<div id="rodape">RODAPÉ</div>
+	</body>
+</html>

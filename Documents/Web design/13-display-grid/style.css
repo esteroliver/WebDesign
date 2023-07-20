@@ -1,0 +1,50 @@
+main{
+    display: grid;
+    grid-template-areas: 
+    "a a a"
+    "b c d";
+    gap: 2em;
+}
+main article{
+    border: 1px solid black;
+    background-color: burlywood;
+    padding: 10px;
+}
+.area-a{
+    grid-area: a;
+}
+.area-b{
+    grid-area: b;
+    display: grid;
+    grid-template-areas: 
+    "i ii"
+    "i iii";
+}
+.area-c{
+    grid-area: c;
+    display: grid;
+    grid-template-areas: 
+    "i ii"
+    "i iii";
+}
+.area-d{
+    grid-area: d;
+    display: grid;
+    grid-template-areas: 
+    "i ii"
+    "i iii";
+}
+section{
+    border: 1px solid black;
+    background-color: khaki;
+    padding: 10px;
+}
+.secao-1{
+    grid-area: i;
+}
+.secao-2{
+    grid-area: ii;
+}
+.secao-3{
+    grid-area: iii;
+}

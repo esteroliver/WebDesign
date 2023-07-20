@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dosis&family=Libre+Baskerville&family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dosis&family=Libre+Baskerville&display=swap');
+body{
+    background-color: powderblue;
+    color:  rgb(82,82,82);
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    background-color: rgba(27, 185, 186, 0.8);
+    padding: 70px;
+    margin: 0px;
+    font-family: 'Unbounded', cursive;
+    box-shadow: black 0px 0px 17px;
+}
+hr{
+    margin-top: 0px;
+}
+#paragrafos{
+    columns: 2;
+    margin: 0px 80px;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    text-indent: 15px;
+    margin: 10px 40px;
+    font-family: 'Dosis', sans-serif
+}
+#paragrafo-ind{
+    text-align: center;
+    width: 700px;
+    letter-spacing: 2px;
+    padding: 50px;
+    margin: auto;
+    text-indent: 0px;
+    font-family: monospace;
+}

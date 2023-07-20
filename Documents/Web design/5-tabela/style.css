@@ -1,0 +1,56 @@
+body{
+    background-color: pink;
+    font-family: monospace;
+    font-size: 15px;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    background-color:white;
+    color: pink;
+    margin: 0px 0px 20px;
+    padding: 30px;  
+}
+
+/*Estilização geral da tabela*/
+#tabela{
+    margin: auto;
+    width: 30%;
+    border-spacing: 0px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+/*Título da tabela (NOTAS)*/
+#tabela caption{
+    text-align: center;
+    background-color: white;
+    color: grey;
+    padding: 5px;
+}
+
+/*Células da tabela*/
+#tabela th,td{
+    text-align: center;
+    padding: 10px;
+}
+#tabela th{
+    border: 0.5px solid white;
+    border-right: 0.5px solid grey;
+    border-top: 0px solid black;
+
+    color: white;
+    background-color: grey;
+}
+#tabela td{
+    border: 0.5px solid grey;
+    border-left: 0.5px solid white;
+    border-top: 0px solid black;
+
+    color: grey;
+    background-color: white;
+}
+#tabela tr:nth-child(odd){
+    background-color: white;
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exemplo IV</title>
+    <style>
+        main{
+            display: grid;
+            gap: 2em; /*espaçamento entre os sections*/
+            grid-template-columns: 1fr 2fr 1fr; /*espaço de cada coluna*/
+            grid-template-rows: 20em 20em 20em; /*espaço de cada linha*/
+            grid-template-areas: 
+            "a b c"
+            "a . d"
+            "e e e"; /*três colunas e três linhas*/
+        }
+        main section{
+            border: 1px solid black;
+            padding: 50px;
+        }
+        .area-a{
+            grid-area: a;
+            background-color: pink;
+        }
+        .area-b{
+            grid-area: b;
+            background-color: khaki;
+        }
+        .area-c{
+            grid-area: c;
+            background-color: lightblue;
+        }
+        .area-d{
+            grid-area: d;
+            background-color: lightsalmon;
+        }
+        .area-e{
+            grid-area: e;
+            background-color: palegreen;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="area-a">A</section>
+        <section class="area-b">B</section>
+        <section class="area-c">C</section>
+        <section class="area-d">D</section>
+        <section class="area-e">E</section>
+    </main>
+</body>
+</html>

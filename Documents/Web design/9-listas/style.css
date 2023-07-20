@@ -1,0 +1,8 @@
+#lista-1{
+    list-style-type: circle;
+}
+#lista-2{
+    list-style-type: square;
+    list-style-position: outside;
+    margin: auto;
+}

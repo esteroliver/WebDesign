@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Yeseva+One&display=swap');
+
+body{
+    background-color: #f7d5e6;
+    margin: 0%;
+}
+
+/*CABEÇALHO*/
+header h1{
+    font-family: 'Yeseva One', cursive;
+    color: #bd6390;
+    background-color: white;
+    padding: 0.5em;
+    margin: 0px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.185);
+}
+
+/*CONTEÚDO*/
+main{
+    width: 18em;
+    background-color: white;
+    padding: 2em;
+    margin: 2em auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.185);
+}
+
+main form{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 20em;
+}
+
+main form label{
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px;
+}
+
+main form input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+    border: 1px solid #b6b6b6;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+#botao{
+    margin: auto;
+}
+
+#botao input{
+    background-color: #bd6390;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/*RODAPÉ*/
+footer{
+    background-color: #bd6390;
+    color: white;
+    margin-top: 28%;
+    padding: 0.5em;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+footer p{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Yeseva One', cursive;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Seções</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }
+        p{
+            margin: 1em;
+        }
+        header, footer{
+            background-color: chocolate;
+            padding: 2em;
+            border-bottom: 0.5em solid coral;
+            color: white;
+        }
+        footer{
+            border-top: 0.5em solid coral;
+            border-bottom: none;
+        }
+        div.modal-container, article{
+            margin:0 auto;
+            max-width: 40em;
+        }
+
+        div.modal-container{
+            
+        }
+        
+        div.modal-content{
+            position: absolute;
+            text-align: right;            
+            
+            background-color: teal;
+            color:white;
+            width: 15em ;
+            height: 15em;
+        }
+
+        div.content1{
+            top: 5em;
+            left: 5em;
+            color:black;
+            background-color: white;
+            z-index: 1;
+        }
+        div.content2{
+            top: 7em;
+            left: 7em;
+            background-color: #107385;
+            z-index: 2;
+        }
+        div.content3{
+            top: 9em;
+            left: 9em;
+            background-color:#1B5280;
+            z-index: 3;
+        }
+        div.content4{
+            top: 11em;
+            left: 11em;
+            background-color: #213980;
+            z-index: 4;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="modal-container">
+        <div class="modal-content content1">
+            <p>1</p>
+        </div>
+        <div class="modal-content content2">
+            <p>2</p>
+        </div>
+        <div class="modal-content content3">
+            <p>3</p>
+        </div>
+        <div class="modal-content content4">
+            <p>4</p>
+        </div>            
+    </div>
+        
+    <header>
+    <h1>TADS</h1>
+    </header>
+    <main>
+    <article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et mollis elit. Maecenas vestibulum bibendum interdum. Cras ipsum odio, sollicitudin ac porta sed, egestas ut dui. Sed sagittis, orci non molestie vestibulum, purus magna mattis leo, in tempus magna massa at justo. Pellentesque in sem id nibh feugiat fermentum cursus a lorem. Integer elementum nibh eu magna dictum venenatis. Vivamus sed mauris pellentesque, tempor lacus sed, feugiat arcu. Vivamus in erat convallis orci egestas pharetra. In interdum tortor ut magna mattis consectetur. Nullam scelerisque tortor in fringilla laoreet. Sed a purus felis. Duis purus nibh, commodo ac faucibus ut, convallis vitae lectus. Morbi scelerisque sagittis purus, id lobortis purus egestas egestas. Nullam lectus urna, accumsan interdum rutrum quis, varius in lorem. Pellentesque pulvinar, nibh sed ultricies malesuada, nunc justo fermentum ligula, eu dictum libero lacus in orci. Donec a dolor blandit, tincidunt mi sit amet, ultricies mauris.</p>	
+    <p>Vestibulum tristique vel dolor sed lobortis. Donec egestas pretium ullamcorper. Etiam vel magna vel justo mattis dapibus. Curabitur non pretium ex. Donec justo risus, consectetur vitae lorem sed, condimentum placerat justo. Sed tincidunt a quam id imperdiet. Nam auctor lacus in mi rutrum aliquam. Aliquam purus ex, vestibulum in imperdiet eu, viverra in augue. Pellentesque non felis tincidunt erat ornare pretium. Morbi vitae accumsan diam. Pellentesque pellentesque turpis id sodales ultricies. Integer nunc felis, accumsan a diam aliquet, pharetra dapibus ligula.</p>	
+    <p>Mauris velit lectus, maximus quis diam eu, sagittis dapibus magna. Vestibulum blandit mollis ligula, in posuere velit auctor eget. Curabitur dapibus, justo a venenatis varius, libero leo gravida nibh, ut egestas risus orci sed diam. Morbi tortor velit, fringilla et mi non, iaculis mattis nisi. Mauris purus justo, feugiat quis consequat in, tincidunt quis ante. Phasellus consectetur malesuada dapibus. Nullam vitae ante tortor. Nunc commodo consequat efficitur. Curabitur ut tellus luctus tortor sollicitudin varius sit amet vitae ex. Suspendisse ornare lectus convallis dolor egestas, a venenatis nibh rhoncus. Morbi sollicitudin eros et eleifend scelerisque. Proin porta lacus tellus, eu ultricies dolor condimentum non. Nam sodales consectetur felis, nec rutrum risus sollicitudin a. Nunc eu nibh lacinia, sagittis erat quis, porta nunc. Nunc non eros tincidunt, pretium enim nec, tincidunt lectus.</p>	
+    <p>In fringilla augue eget ligula pharetra, vel ultrices lorem efficitur. Maecenas et faucibus magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean lacinia ac orci eget gravida. Nullam gravida finibus nibh elementum tempus. Mauris pharetra vehicula varius. Sed quis ligula posuere massa elementum fermentum. Cras sit amet leo id nunc porttitor ullamcorper. Donec odio nunc, vestibulum sed tempus vitae, lacinia et purus. Duis convallis accumsan lacus, rutrum laoreet mi posuere in. Fusce eu odio ac dui rhoncus pretium. Aliquam semper elit finibus euismod consectetur. In et gravida ex, nec vulputate est. Donec ut odio dignissim magna pharetra iaculis a nec mi. Fusce pretium risus eu nibh suscipit efficitur.</p>	
+    <p>Phasellus convallis vulputate risus, nec malesuada mi iaculis eget. Morbi placerat ex at efficitur ultrices. Phasellus lorem velit, interdum nec dapibus in, mollis non leo. Nulla lacinia ornare est et sollicitudin. Aliquam dui dui, pellentesque sit amet ipsum et, interdum tristique justo. Proin fermentum, nibh nec tristique maximus, leo velit hendrerit dolor, id placerat odio felis in neque. Nunc at quam sed risus luctus molestie. In hac habitasse platea dictumst. Donec et pulvinar mi, vitae interdum massa. Morbi tristique, dui eu molestie pretium, erat lorem congue ante, eget feugiat nisl mi ullamcorper magna.</p>    
+    </article>
+    </main>
+    <footer>
+    <p>Desenvolvido para TADS/DIATINF/IFRN/CNAT</p>
+    </footer>        
+</body>
+</html>
+

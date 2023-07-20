@@ -1,0 +1,63 @@
+<html>
+    <style>
+        body{
+            background-color: pink;
+        }
+        /*class é representado por .*/
+        .rot_verm{
+            color: red;
+        }
+
+        /*id é representado por #*/
+        #rot_azul{
+            color: blue;
+        }
+        #rot_azul:hover{
+            color: green;
+        }
+
+        p:hover{
+            color: green;
+        }
+
+        h1{
+            color: gray;
+        }
+
+        li:nth-child(2){
+            color: white;
+        }
+    </style>
+    
+    <!--id só pode ser inserido para uma tag, e class para vários-->
+
+    <body>
+        <h1>Classes</h1>
+        <h2>Sempre começar classes com com "." ou "<elemento>."</h2>
+        <p class="rot_verm">Parágrafo utilizando classe rot_verm</p>
+        <p class="rot_verm">Outro Parágrafo utilizando classe rot_verm</p>
+        <hr>
+
+        <h1>ID</h1>
+        <h2>Sempre começar com "#" ou "<elemento>#"</h2>
+        <p id="rot_azul">Parágrafo com id rot_azul</p>
+
+        <h1>Outros seletores</h1>
+        <ul>
+            <li>* - todo o HTML</li>
+            <li>tag - somente a tag selecionada será alterada</li>
+            <li>.tag - alterar classe de nome tag</li>
+            <li>#tag - alterar id de nome tag</li>
+            <li>tag > tag filha - alterar a tag filha da tag</li>
+        </ul>
+
+        <h1>Pseudo-class</h1>
+        <ul>
+            <li>tag:hover - muda a cor quando passa o mouse</li>
+            <li>tag:first-child - primeiro nó da tag</li>
+            <li>tag:last-child - último nó da tag</li>
+            <li>tag:nth-child(2) - nó 2 da tag</li>
+        </ul>
+    </body>
+    
+</html>

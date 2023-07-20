@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06</title>
+</head>
+<body>
+    <!--Formulário <form>-->
+    <form method="post"> <!--O método post irá enviar informações criptografadas, diferente do método get.-->
+
+        <!--Rótulo do campo <label>-->
+        <label>Nome:
+            <!--Entrada de dados <input>-->
+            <input type="text" id="nome">
+        </label>
+
+        <br>
+
+        <label>Email:
+            <input type="email" id="email">
+        </label>
+
+        <br>
+
+        <label>Senha:
+            <input type="password" id="senha"> <!--type: text, password, submit, checkbox. radio, email. date, button, number, search, url-->
+        </label>
+
+        <br>
+
+        <label>Selecione um arquivo:
+            <input type="file" id="arquivo"> <!--Esse tipo de input irá pedir que o usuário envie um arquivo do próprio computador.-->
+        </label>
+
+        <br>
+
+        <label>Formação: <br>
+            <label><input type="radio" name="formacao" value="formacaomedio">Médio</label><br>
+            <label><input type="radio" name="formacao" value="formacaotec">Técnico</label><br>
+            <label><input type="radio" name="formacao" value="formacaosup">Superior</label>
+        </label> <!--O radio só permite selecionar uma opção.-->
+
+        <br>
+
+        <label>Áreas de interesse: <br>
+            <label><input type="checkbox" name="area" value="areadesign">Design</label><br>
+            <label><input type="checkbox" name="area" value="areamanut">Manutenção</label><br>
+            <label><input type="checkbox" name="area" value="arearedes">Redes</label>
+        </label> <!--O checkbox permite selecionar mais de uma opção.-->
+
+        <br>
+
+        <label>Estado:
+            <select id="uf">
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+            </select> <!--Serve para selecionar uma opção.-->
+        </label>
+
+        <br>
+
+        <label>Data de nascimento:
+            <input type="date" id="nascimento"> <!--Já monta um calendário para pôr uma data.-->
+        </label>
+        
+        <br>
+        
+        <label>
+            Mensagem: <textarea name="mensagem"></textarea>
+        </label>
+       
+        <input type="submit" value="Enviar"> <!--Irá enviar as informações para um arquivo HTML que deve estar informado na tag form (action="arquivo.html"). Como esse arquivo não existe, esse comando irá informar erro.-->
+    </form>
+</body>
+</html>
